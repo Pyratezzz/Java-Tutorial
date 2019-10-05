@@ -1,0 +1,24 @@
+
+Q&A
+Q1. Difference B/W System.out.println() and System.out::println?
+A1. System.out.println() is a statement while System.out::println is an expression.
+
+Q2. Difference B/W Statement and Expression?
+A2. Statement describe activity of a java program while expression calculate a value as a result and to be used in another expression or in a statement.
+    ex. i=i+1; is a statement while i+1 is a expression.
+
+Q3. Difference between Thread.start() and Thread.run()?
+A3. Thread.start(): Will create a new thread and run the run() method.
+                    Can only be called once for a thread, if called twice will throw IllegalStateException.
+                    Asyncronus
+     Thread.run(): Will run the run() method from the same thread.
+                   Can call multiple times for a thread
+                   Syncronus
+
+
+
+
+Points to remember:
+P1. Hash Map is an unorder map, though Linkedhash map is ordered.
+P2. Functional interface can only define one abstract function in it.
+P3. Derived class can access the function of super though vice versa is not possible. If type of a list is defined as super than it will take only super type list as a param, not derived type.
